@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        python-version: [3.11.6]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          cd key_generator/source
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Run API service
+        working-directory: ./mock-apis
+        run: |
+          fastapi dev main.py &
+
+      - name: Run integration tests
+        working-directory: ./tests/integration
+        run: |
+          pytest
+          

@@ -1,0 +1,54 @@
+{
+  "user_id": "user1234567",
+  "order": {
+    "sub_total": 136795.50,
+    "delivery": 92.92,
+    "taxes": 4861.3,
+    "total": 156795.90,
+    "products": [
+      {
+        "description": "Decide wonder nor color push. Allow unit Democrat personal drug.\nHave western small improve project happen personal. Phone five across. Yet expect list leg follow.",
+        "price": 21678745797.802,
+        "quantity": 7374
+      },
+      {
+        "description": "Decide wonder nor color push. Allow unit Democrat personal drug.\nHave western small improve project happen personal. Phone five across. Yet expect list leg follow.",
+        "price": 21678745797.802,
+        "quantity": 7374
+      },
+      {
+        "description": "Decide wonder nor color push. Allow unit Democrat personal drug.\nHave western small improve project happen personal. Phone five across. Yet expect list leg follow.",
+        "price": 21678745797.802,
+        "quantity": 7374
+      },
+      {
+        "description": "Decide wonder nor color push. Allow unit Democrat personal drug.\nHave western small improve project happen personal. Phone five across. Yet expect list leg follow.",
+        "price": 21678745797.802,
+        "quantity": 7374
+      },
+      {
+        "description": "Decide wonder nor color push. Allow unit Democrat personal drug.\nHave western small improve project happen personal. Phone five across. Yet expect list leg follow.",
+        "price": 21678745797.802,
+        "quantity": 7374
+      }
+    ]
+  },
+  "shipment": {
+    "street": "Guerrero Valley",
+    "city": "Whitneystad",
+    "country": "Equatorial Guinea",
+    "post_code": "61187",
+    "telephone": "(264)844-1656x89299",
+    "first_name": "Tyler",
+    "last_name": "Brown"
+  },
+  "billing": {
+    "street": "Guerrero Valley",
+    "city": "Whitneystad",
+    "country": "Equatorial Guinea",
+    "post_code": "61187",
+    "telephone": "(264)844-1656x89299",
+    "first_name": "Tyler",
+    "last_name": "Brown"
+  }
+}
