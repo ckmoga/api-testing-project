@@ -43,6 +43,7 @@ Open the file in a browser for better and detailed view of the results
 ## Project structure
 ```
 /api-testing-project
+  /.github - Github workflow for CI
   /mocked-api
     /src
       /repository - data factory
@@ -61,6 +62,7 @@ Open the file in a browser for better and detailed view of the results
       pytest.ini - another ini file; here we defined report options
   README.md
   requirements.txt
+  api-testing-project.postman_collection.json - potsman collection for manual testing
 ```
 
 ## Test cases
